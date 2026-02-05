@@ -4,9 +4,11 @@ import React from 'react'
 
 import IntroImg from "../assets/forest-image.jpg"
 import { Link } from "react-router-dom";
+// import CircularCarousel from "../Components/CircularCarousel";
+
 
 const HeroImg = () => {
-  return <div className="hero">
+  return <div className="hero carousel-wrapper">
     <div className="mask">
       <img className="intro-img" 
        src="https://images.unsplash.com/photo-1590959651373-a3db0f38a961?q=80&w=1039&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="IntroImg" />
@@ -18,12 +20,15 @@ const HeroImg = () => {
         <Link to="/project"
         className="btn">Projects
         </Link>
-        <Link to="/contact"
-        className="btn btn-light">Contact
+        <Link to="/about"
+        className="btn btn-light">About
         </Link>
       </div>
     </div>
+    
+    {/* <CircularCarousel /> */}
   </div>
 };
 
 export default HeroImg;
+

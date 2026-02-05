@@ -1,25 +1,38 @@
+import news from "../assets/news.png"
+import quiz from "../assets/quiz.png"
+import signup from "../assets/signup.png"
+import tictac from "../assets/tictac.png"
+
+
 const ProjectCardData = [
     {
-        imgsrc: "https://plus.unsplash.com/premium_photo-1690479511777-2cfaa9ef8309?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        title: "Rock-Paper-Scissors",
-        text: "I know your question! The answer is Yes! Thanks to me you can play this game online. The winner is decided by the rules: rock crushes scissors, scissors cuts paper, and paper covers rock. If both players choose the same shape, the round is a tie.",
+        imgsrc: news,
+        title: "News App",
+        text: "A modern news app designed to deliver real-time healines with a clean, intuitive interface. The focus is on readabilty, fast navigation and a seamless user experience across categories.",
         view: "",
-        source: ""
+        source: "https://github.com/reginald-moyo/react-news-app"
     },
     {
-        imgsrc: "https://images.unsplash.com/photo-1511379938547-c1f69419868d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        title: "Online Music Shop",
-        text: "An online music shop built to provide a seamless browsing and purchasing experience ",
+        imgsrc: quiz,
+        title: "Quiz App",
+        text: "An interactive Quiz App that lets users answer multiple-choice questions, receive instant feedback and and view their final score at the end of the quiz. Built with a focus on clean UI, responsive design, and user-friendly interactions ",
         view: "",
-        source: ""
+        source: "https://github.com/reginald-moyo/react-quiz-app"
     },
     {
-        imgsrc: "https://images.unsplash.com/photo-1555431189-0fabf2667795?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        title: "Grammar-Checker",
-        text: "A grammar checking application designed to help users write clearly and correctly",
+        imgsrc: signup,
+        title: "SignUp-LogIn Form",
+        text: "Register to create your account and access all features of the application. If you already have an account, simply log in to continue.",
+        view: "",
+        source: "https://github.com/reginald-moyo/react-signup-form"
+    },  
+    {
+        imgsrc: tictac,
+        title: "Tic-Tac-Toe Game",
+        text: "A classic Tic Tac Toe game built with a focus on clean UI, game logic, and user interaction. Features turn-based gameplay, win detection, and game reset functionality.",
         view: "",
         source: ""
-    },       
+    }     
 ];
 
 export default ProjectCardData;

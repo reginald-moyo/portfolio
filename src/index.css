@@ -30,6 +30,7 @@ ul {
   border: 1px solid #fff;
   font-weight: 600;
   cursor: pointer;
+  align-items: flex-end; 
 }
 
 .btn-light {

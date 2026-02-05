@@ -3,6 +3,8 @@ import Navbar from "../Components/Navbar";
 import HeroImg from "../Components/HeroImg"
 import Footer from "../Components/Footer"
 
+
+
 function Home() {
   return (
     <div>
