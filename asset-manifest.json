@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.51cae6be.css",
+    "main.js": "/portfolio/static/js/main.ca3f23de.js",
+    "static/media/quiz.png": "/portfolio/static/media/quiz.6a75a4e2c931b4a89836.png",
+    "static/media/news.png": "/portfolio/static/media/news.9e0863008931c394fd67.png",
+    "static/media/signup.png": "/portfolio/static/media/signup.c86ec3579bdd086e7c8b.png",
+    "static/media/tictac.png": "/portfolio/static/media/tictac.f80daec66b1991c41ef3.png",
+    "index.html": "/portfolio/index.html",
+    "main.51cae6be.css.map": "/portfolio/static/css/main.51cae6be.css.map",
+    "main.ca3f23de.js.map": "/portfolio/static/js/main.ca3f23de.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51cae6be.css",
+    "static/js/main.ca3f23de.js"
+  ]
+}
