@@ -9,6 +9,11 @@ class HeroImg2 extends Component {
         <div className="heading">
             <h1>{this.props.heading}</h1>
             <p>{this.props.text}</p>
+            <div>
+            <a href="" download className="cv-button">
+                Download CV
+            </a>
+        </div>
         </div>
     </div>
   );

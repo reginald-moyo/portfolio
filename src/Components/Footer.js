@@ -38,10 +38,14 @@ const Footer = () => {
                     I’m constantly exploring new tools and best practices to improve performance and user experience
                 </p>
                 <div className="social">
-                    <FaFacebook size={30} style={{ color: 
+                        <a href="https://www.linkedin.com/in/reginald-moyo-215093191"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                        <FaLinkedin size={30} style={{ color: 
                         "#fff", marginRight: "1rem"}} />
-                    <FaLinkedin size={30} style={{ color: 
-                        "#fff", marginRight: "1rem"}} />
+                        </a>
+                    
                     
                 </div>
             </div>
