@@ -2,13 +2,14 @@ import news from "../assets/news.png"
 import quiz from "../assets/quiz.png"
 import signup from "../assets/signup.png"
 import tictac from "../assets/tictac.png"
+import movie from "../assets/movie.png"
 
 
 const ProjectCardData = [
     {
         imgsrc: news,
         title: "News App",
-        text: "A modern news app designed to deliver real-time healines with a clean, intuitive interface. The focus is on readabilty, fast navigation and a seamless user experience across categories.",
+        text: "A modern news application that delivers real-time headlines by integrating with an external news API source. The app dynamically fetches and renders up-to-date articles across multiple categories, ensuring users receive current information instantly.",
         view: "",
         source: "https://github.com/reginald-moyo/react-news-app"
     },
@@ -31,8 +32,15 @@ const ProjectCardData = [
         title: "Tic-Tac-Toe Game",
         text: "A classic Tic Tac Toe game built with a focus on clean UI, game logic, and user interaction. Features turn-based gameplay, win detection, and game reset functionality.",
         view: "",
-        source: ""
-    }     
+        source: "https://github.com/reginald-moyo/react-tic-tac-toe-game.git"
+    },
+    {
+        imgsrc: movie,
+        title: "Movie App",
+        text: "A React + Vite web application that fetches real-time movie data from an external API, implements dynamic search functionality, and integrates backend database logic for managing persistent data. Demonstrates API consumption, asynchronous state handling, and full-stack integration fundamentals.",
+        view: "",
+        source: "https://github.com/reginald-moyo/movie-app.git"
+    }          
 ];
 
 export default ProjectCardData;
