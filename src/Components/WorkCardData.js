@@ -7,12 +7,19 @@ import movie from "../assets/movie.png"
 
 const ProjectCardData = [
     {
-        imgsrc: news,
-        title: "News App",
-        text: "A modern news application that delivers real-time headlines by integrating with an external news API source. The app dynamically fetches and renders up-to-date articles across multiple categories, ensuring users receive current information instantly.",
-        view: "",
-        source: "https://github.com/reginald-moyo/react-news-app"
+        imgsrc: signup,
+        title: "SignUp-LogIn Form",
+        text: "Register to create your account and access all features of the application. If you already have an account, simply log in to continue.",
+        view: "https://react-signup-form-eight.vercel.app/",
+        source: "https://github.com/reginald-moyo/react-signup-form"
     },
+    {
+        imgsrc: tictac,
+        title: "Tic-Tac-Toe Game",
+        text: "A classic Tic Tac Toe game built with a focus on clean UI, game logic, and user interaction. Features turn-based gameplay, win detection, and game reset functionality.",
+        view: "https://react-tic-tac-toe-game-tan.vercel.app/",
+        source: "https://github.com/reginald-moyo/react-tic-tac-toe-game.git"
+    }, 
     {
         imgsrc: quiz,
         title: "Quiz App",
@@ -21,18 +28,11 @@ const ProjectCardData = [
         source: "https://github.com/reginald-moyo/react-quiz-app"
     },
     {
-        imgsrc: signup,
-        title: "SignUp-LogIn Form",
-        text: "Register to create your account and access all features of the application. If you already have an account, simply log in to continue.",
+        imgsrc: news,
+        title: "News App",
+        text: "A modern news application that delivers real-time headlines by integrating with an external news API source. The app dynamically fetches and renders up-to-date articles across multiple categories, ensuring users receive current information instantly.",
         view: "",
-        source: "https://github.com/reginald-moyo/react-signup-form"
-    },  
-    {
-        imgsrc: tictac,
-        title: "Tic-Tac-Toe Game",
-        text: "A classic Tic Tac Toe game built with a focus on clean UI, game logic, and user interaction. Features turn-based gameplay, win detection, and game reset functionality.",
-        view: "",
-        source: "https://github.com/reginald-moyo/react-tic-tac-toe-game.git"
+        source: "https://github.com/reginald-moyo/react-news-app"
     },
     {
         imgsrc: movie,
