@@ -1,18 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4fb5e84d.css",
-    "main.js": "/portfolio/static/js/main.b9ebec4b.js",
+    "main.css": "/portfolio/static/css/main.14b4fcf5.css",
+    "main.js": "/portfolio/static/js/main.00e9ce00.js",
+    "static/media/health.png": "/portfolio/static/media/health.1419d83bbe9279150e30.png",
+    "static/media/tech.png": "/portfolio/static/media/tech.19daf3f75965196ad583.png",
+    "static/media/sports.png": "/portfolio/static/media/sports.bedde73848831a90fc50.png",
+    "static/media/technology.png": "/portfolio/static/media/technology.824851d79ff2e020ae7e.png",
+    "static/media/opened.png": "/portfolio/static/media/opened.6e96bb6d109871059ceb.png",
+    "static/media/latest.png": "/portfolio/static/media/latest.c675fd359187fa4450fe.png",
     "static/media/movie.png": "/portfolio/static/media/movie.996fac0833967a5861cb.png",
     "static/media/quiz.png": "/portfolio/static/media/quiz.6a75a4e2c931b4a89836.png",
     "static/media/news.png": "/portfolio/static/media/news.9e0863008931c394fd67.png",
     "static/media/signup.png": "/portfolio/static/media/signup.c86ec3579bdd086e7c8b.png",
     "static/media/tictac.png": "/portfolio/static/media/tictac.f80daec66b1991c41ef3.png",
     "index.html": "/portfolio/index.html",
-    "main.4fb5e84d.css.map": "/portfolio/static/css/main.4fb5e84d.css.map",
-    "main.b9ebec4b.js.map": "/portfolio/static/js/main.b9ebec4b.js.map"
+    "main.14b4fcf5.css.map": "/portfolio/static/css/main.14b4fcf5.css.map",
+    "main.00e9ce00.js.map": "/portfolio/static/js/main.00e9ce00.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fb5e84d.css",
-    "static/js/main.b9ebec4b.js"
+    "static/css/main.14b4fcf5.css",
+    "static/js/main.00e9ce00.js"
   ]
 }
