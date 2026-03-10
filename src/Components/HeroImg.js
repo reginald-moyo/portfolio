@@ -17,7 +17,7 @@ const HeroImg = () => {
       <h1>Front-End Developer</h1>
       <p>I’m Reginald Moyo, a dedicated web developer driven by curiosity, creativity, and the desire to build impactful digital products. I specialize in creating responsive, high-quality web experiences and continuously push myself to learn, improve, and innovate. This portfolio showcases the work that reflects my skills and passion.</p> 
       <div className="btn-container">
-        <Link to="/project"
+        <Link to="/projects"
         className="btn">Projects
         </Link>
         <Link to="/about"

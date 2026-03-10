@@ -1,18 +1,48 @@
 import React from 'react'
-
+import { useParams } from "react-router";
 import Navbar from "../Components/Navbar";
-
+import WorkCardData from "../Components/WorkCardData";
 import Footer from "../Components/Footer";
+import "./Project.css"
 import HeroImg2 from '../Components/HeroImg2';
-import Work from '../Components/Work';
+
+
 
 const Project = () => {
+
+    const params = useParams();
+    console.log(params);
+    const projectId = params.id ? parseInt(params.id) : undefined;
+    const project = WorkCardData.find((item) => item.id === projectId);
+    console.log(project);
   return (
-  <div>
+  <div className='project-page'>
+
     <Navbar />
-    <HeroImg2 heading="Summary" text="The projects below showcase my journey as a developer. I’ve used them to experiment with new technologies, solve practical problems, and continuously improve my technical skills. Each one reflects my commitment to learning, adaptability, and building web experiences that are both efficient and accessible. My background in client service also influences how I approach these projects, prioritizing clarity, usability, and solutions that genuinely serve user needs." />
-    <Work />
-    <Footer />
+    <div className='pjct-cntnt'>
+      <div className='project-header'>
+        <h2 className='prjct-title'>{project?.title}</h2>
+        <p className='project-description'>{project?.description}</p>
+      </div>
+
+      <div className='screenshots-grid'>
+      {project?.screenshots?.map((img, index) => (
+        <div className="screenshot-card" key={index}>
+          <img 
+            className='screenshot-image'
+            src={img} 
+            alt={`screenshot-${index}`} />
+        </div>
+        ))}
+      </div>
+
+    </div>
+    
+    <div className='foot'>
+      <Footer />
+    </div>
+    
+
   </div>
   ); 
 };

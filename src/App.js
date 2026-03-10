@@ -1,9 +1,11 @@
 import React from "react";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import "./index.css";
 import Home from "./routes/Home";
-import Project from "./routes/Project";
+import Projects from "./routes/Projects";
 import About from "./routes/About";
-import { HashRouter, Route, Routes } from "react-router-dom";
+import Project from "./routes/Project";
+
 
 
 function App() {
@@ -11,7 +13,8 @@ function App() {
     
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/project" element={<Project />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/project/:id" element={<Project />} />
         <Route path="/about" element={<About />} />
       </Routes> 
         
