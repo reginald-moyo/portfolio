@@ -5,7 +5,6 @@ import tictac from "../assets/tictac.png"
 import movie from "../assets/movie.png"
 import latest from "../assets/latest.png"
 import technology from "../assets/technology.png"
-import opened from "../assets/opened.png"
 import health from "../assets/health.png"
 import sports from "../assets/sports.png"
 import tech from "../assets/tech.png"
@@ -57,7 +56,6 @@ const ProjectCardData = [
             sports,
             tech, 
             latest, 
-            opened,
         ]
         
     },

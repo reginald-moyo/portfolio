@@ -26,9 +26,10 @@
 }
 
 .project-description{
+  width: 100%;
   max-width: 700px;
   margin: auto;
-  color: #555;
+  color: white;
 }
 
 .screenshots-grid{
@@ -52,6 +53,9 @@
 @media (max-width: 900px){
   .screenshots-grid{
     column-count: 1;
+  }
+  .project-description{
+    font-size: 15px;
   }
 }
 
