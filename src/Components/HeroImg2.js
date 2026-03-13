@@ -12,10 +12,10 @@ class HeroImg2 extends Component {
 
             {this.props.showCVButton && (
                 <div>
-                <a href="/Reginald_Moyo_Frontend_Developer_CV.pdf" download="/Reginald_Moyo_Frontend_Developer_CV.pdf" className="cv-button">
+                  <a href={process.env.PUBLIC_URL + "/Reginald_Moyo_Frontend_Developer_CV.pdf"} download className="cv-button">
                     Download CV
-                </a>
-            </div>
+                  </a>
+                </div>
             )}
             
         </div>

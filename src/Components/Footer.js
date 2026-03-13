@@ -13,7 +13,7 @@ const Footer = () => {
                     <FaHome size={20} style={{ color: 
                         "#fff", marginRight: "2rem"}} />
                         <div>
-                            <p>Jana Kotłowskiego 3/3</p>
+                            <p>Jana Kotłowskiego 3</p>
                              <p>84-200, Wejherowo</p>
                              <p>Poland</p>
                         </div>
